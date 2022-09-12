@@ -328,10 +328,6 @@ p {
   font-weight: 600;
   letter-spacing: .01em; }
 
-* {
-  margin: 0;
-  padding: 0; }
-
 .map {
   margin-left: 60px; }
 
@@ -343,47 +339,8 @@ p {
     display: flex;
     flex-direction: row;
     margin-top: 60px;
-    margin-bottom: 60px; }
-    .info-box .map-box .direc-map {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding-left: 60px;
-      background: #252525; }
-      .info-box .map-box .direc-map p {
-        font-size: 1.2em;
-        font-weight: 700; }
-      .info-box .map-box .direc-map a {
-        margin-bottom: 15px; }
-
-/* MOBILE PUNTOS DE VENTA */
-@media screen and (max-width: 890px) {
-  .map {
-    margin-left: 0;
-    width: 400px; }
-  .info-box {
-    width: 100%; }
-    .info-box .map-box {
-      display: flex;
-      flex-direction: column;
-      margin-top: 30px;
-      margin-bottom: 30px; }
-      .info-box .map-box .direc-map {
-        padding-left: 20px;
-        padding-top: 20px; } }
-
-.map {
-  margin-left: 60px; }
-
-.info-box {
-  width: 100%;
-  display: flex;
-  flex-direction: column; }
-  .info-box .map-box {
-    display: flex;
-    flex-direction: row;
-    margin-top: 60px;
-    margin-bottom: 60px; }
+    margin-bottom: 60px;
+    justify-content: center; }
     .info-box .map-box .direc-map {
       display: flex;
       flex-direction: column;

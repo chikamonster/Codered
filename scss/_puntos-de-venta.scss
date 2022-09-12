@@ -1,56 +1,47 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.map{
-    margin-left: 60px;
-}
-.info-box{
+.map {
+    margin-left: 60px; }
+  
+  .info-box {
     width: 100%;
     display: flex;
-    flex-direction: column;
-    .map-box{
+    flex-direction: column; 
+    .map-box {
+      display: flex;
+      flex-direction: row;
+      margin-top: 60px;
+      margin-bottom: 60px;
+      justify-content: center;
+      .direc-map {
         display: flex;
-        flex-direction: row;
-        margin-top: 60px;
-        margin-bottom: 60px;
-        .direc-map{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding-left: 60px;
-            background: rgb(37, 37, 37);
-            p{
-                font-size: 1.2em;
-                font-weight: 700;
-            }
-            a{
-                margin-bottom: 15px;
-            }
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 20px;
+        background: #252525;
+        p {
+          font-size: 1em;
+          font-weight: 700; 
+          padding-top: 10px;
         }
-
+          a {
+            margin-bottom: 15px; 
+            font-size: .90rem;
+            padding-right: 20px;
+          }
+      }
     }
-}
+  }
 
-/* MOBILE PUNTOS DE VENTA */
+@media screen and (max-width:850px) {
+  .map{
+    margin: 0;
+  }
+  .info-box{
+    .map-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      }
+  }
 
-@media screen and (max-width:890px){
-    .map{
-        margin-left:0;
-        width: 400px;
-    }
-    .info-box{
-        width: 100%;
-        .map-box{
-            display: flex;
-            flex-direction: column;
-            margin-top: 30px;
-            margin-bottom: 30px;
-            .direc-map{
-                padding-left: 20px;
-                padding-top: 20px;
-            }
-        }
-    }
 }

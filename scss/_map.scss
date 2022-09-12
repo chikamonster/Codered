@@ -29,3 +29,18 @@
       }
     }
   }
+
+@media screen and (max-width:850px) {
+  .map{
+    margin: 0;
+  }
+  .info-box{
+    .map-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    }
+  }
+
+}

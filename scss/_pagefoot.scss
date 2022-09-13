@@ -92,8 +92,11 @@ $white: white;
         margin-top: 20px;
         display: flex;
         justify-content: center;
-        .pie{
+        .pie {
             font-size: .8rem;
+            a{
+                font-size: .8rem;
+            }
         }
     }
     

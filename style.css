@@ -204,11 +204,13 @@ nav a:hover::before {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px; }
+  padding: 20px;
+  margin-top: 15px; }
   .product-title p {
     font-size: 3em;
     font-weight: 700;
-    letter-spacing: .01em; }
+    letter-spacing: .01em;
+    color: white; }
 
 .imgprod {
   width: 100%; }
@@ -367,6 +369,25 @@ option {
         margin-bottom: 15px;
         font-size: .90rem;
         padding-right: 20px; }
+
+.news_box {
+  background-image: url(https://redragon.es/content/uploads/2021/07/Footer-1920x678-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .news_box .news_description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px; }
+    .news_box .news_description .news_info {
+      width: 45%;
+      margin-left: 50px; }
+    .news_box .news_description .news_input {
+      width: 25%;
+      margin-right: 50px;
+      background: transparent; }
 
 @media screen and (max-width: 850px) {
   .map {

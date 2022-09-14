@@ -141,6 +141,14 @@ $lgblack:#181818;
             
         }
       }
+      .carousel-inner{
+        height: 500px;
+        .carousel-item{
+            img{
+                min-height: 500px;
+            }
+        }
+      }
 }
 
 .carousel-item {

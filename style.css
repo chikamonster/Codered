@@ -309,7 +309,11 @@ nav a:hover::before {
       object-fit: cover;
       top: 0;
       left: 0;
-      min-height: 400px; } }
+      min-height: 400px; }
+  .carousel-inner {
+    height: 500px; }
+    .carousel-inner .carousel-item img {
+      min-height: 500px; } }
 
 .carousel-item {
   height: 800px; }

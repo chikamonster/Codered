@@ -51,12 +51,24 @@
       margin-left: 50px;
     }
     .news_input{
-      width: 25%;
-      margin-right: 50px;
+      width: auto;
+      display: flex;
+      flex-direction: row;
+      margin-right: 25px;
+      .info_button{
+        border-style: none;
+        border-radius: 4px;
+        width: 60px;
+        height: 40px;
+        }
+      }
+    }
+    .email_input{
+      max-width: 100%;
+      margin-right: 20px;
       height: 40px;
       background: transparent;
       border: 1.5px solid #ac011d;
-    }
   }
 }
 @media screen and (max-width:850px) {

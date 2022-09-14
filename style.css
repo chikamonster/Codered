@@ -389,11 +389,21 @@ option {
       width: 45%;
       margin-left: 50px; }
     .news_box .news_description .news_input {
-      width: 25%;
-      margin-right: 50px;
-      height: 40px;
-      background: transparent;
-      border: 1.5px solid #ac011d; }
+      width: auto;
+      display: flex;
+      flex-direction: row;
+      margin-right: 25px; }
+      .news_box .news_description .news_input .info_button {
+        border-style: none;
+        border-radius: 4px;
+        width: 60px;
+        height: 40px; }
+  .news_box .email_input {
+    max-width: 100%;
+    margin-right: 20px;
+    height: 40px;
+    background: transparent;
+    border: 1.5px solid #ac011d; }
 
 @media screen and (max-width: 850px) {
   .map {

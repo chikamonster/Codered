@@ -272,7 +272,7 @@ nav a:hover::before {
     align-items: center;
     justify-content: center; }
     .product-title p {
-      font-size: 2em;
+      font-size: 1.8em;
       font-weight: 700;
       letter-spacing: .01em; }
   .product-display {
